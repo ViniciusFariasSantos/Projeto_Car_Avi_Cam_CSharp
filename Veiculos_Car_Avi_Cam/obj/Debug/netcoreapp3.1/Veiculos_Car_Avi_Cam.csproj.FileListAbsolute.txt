@@ -1,0 +1,11 @@
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\bin\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.exe
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\bin\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.deps.json
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\bin\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.runtimeconfig.json
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\bin\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.runtimeconfig.dev.json
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\bin\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.dll
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\bin\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.pdb
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\obj\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.csprojAssemblyReference.cache
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\obj\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.AssemblyInfoInputs.cache
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\obj\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.AssemblyInfo.cs
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\obj\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.dll
+C:\Users\FSFS\source\repos\Veiculos_Car_Avi_Cam\Veiculos_Car_Avi_Cam\obj\Debug\netcoreapp3.1\Veiculos_Car_Avi_Cam.pdb

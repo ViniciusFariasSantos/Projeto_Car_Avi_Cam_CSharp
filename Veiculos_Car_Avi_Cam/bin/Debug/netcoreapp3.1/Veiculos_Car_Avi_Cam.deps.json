@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Veiculos_Car_Avi_Cam/1.0.0": {
+        "runtime": {
+          "Veiculos_Car_Avi_Cam.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Veiculos_Car_Avi_Cam/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
