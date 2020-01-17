@@ -16,65 +16,52 @@ namespace Veiculos_Car_Avi_Cam
             this.ano = ano;
             this.porta = porta;
 
-             void acelerar(int quantidade)
+          
+        }
+
+
+        public  void Abastecer(float qtdLitros)
+        {
+
+            if (combustiveis < 150)
             {
-                if (isLigado)
+                if (isLigado == false)
                 {
-                    velocidade += quantidade;
-                    combustiveis--;
-                    Console.WriteLine("Você acelerou, seu veiculos está  a   " + velocidade + " km/h ");
+
+                    combustiveis = combustiveis + (int)qtdLitros;
+
+                    if (combustiveis > 150)
+                    {
+                        int x = combustiveis - 150;
+                        combustiveis = combustiveis - x;
+
+                        Console.WriteLine("seu limite de abastecer excedeu, limitamos  até " + combustiveis + "  litros  para evitar acidente.");
+
+
+                    }
+
+                    Console.WriteLine("seu tanque está  " + combustiveis + "  litros");
+
                 }
                 else
                 {
-                    Console.WriteLine("O veiculo esta desligado");
-                }
-            }
-
-            void abastecer(float qtdLitros)
-            {
-
-                if (combustiveis < 150)
-                {
-                    if (isLigado == false)
-                    {
-
-                        combustiveis = combustiveis + (int)qtdLitros;
-
-                        if (combustiveis > 150)
-                        {
-                            int x = combustiveis - 150;
-                            combustiveis = combustiveis - x;
-
-                            Console.WriteLine("seu limite de abastecer excedeu, limitamos  até " + combustiveis + "  litros  para evitar acidente.");
 
 
-                        }
-
-                        Console.WriteLine("seu tanque está  " + combustiveis + "  litros");
-
-                    }
-                    else
-                    {
-
-
-                        Console.WriteLine("Seu Veiculo esta em movimento, você não pode abastecer");
-
-
-                    }
-
+                    Console.WriteLine("Seu Veiculo esta ligado ou em movimento, freia e desligue para abastecer");
 
 
                 }
 
 
+
             }
+
 
         }
 
 
-        
-       
-    } 
-    
+
+    }
+
 }
 

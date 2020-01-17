@@ -10,27 +10,16 @@ namespace Veiculos_Car_Avi_Cam
         public int portas;
         public int ano;
 
-        public Carro(int velocidade, int combustiveis, bool isLigado, string modelo, int passageiro, string marca, int portas, int ano):base(velocidade = 20, combustiveis=100, isLigado, modelo, passageiro)
+        public Carro(int velocidade, int combustiveis , bool isLigado, string modelo, int passageiro, string marca, int portas, int ano):base(velocidade , combustiveis , isLigado, modelo, passageiro)
         {
             this.marca = marca;
             this.portas = portas;
             this.ano = ano;
 
 
-            void acelerar(int quantidade)
-            {
-                if (isLigado)
-                {
-                    velocidade += quantidade;
-                    combustiveis--;
-                    Console.WriteLine("Você acelerou, seu veiculos está  a   " + velocidade + " km/h ");
-                }
-                else
-                {
-                    Console.WriteLine("O veiculo esta desligado");
-                }
-            }
-             void abastecer(int qtdLitros)
+
+
+             void Abastecer(int qtdLitros)
             {
 
                 if (combustiveis < 100)
@@ -57,7 +46,7 @@ namespace Veiculos_Car_Avi_Cam
                     {
 
 
-                        Console.WriteLine("Seu Veiculo esta em movimento, você não pode abastecer");
+                        Console.WriteLine("Seu Veiculo esta ligado ou em movimento, freia e desligue para abastecer");
 
 
                     }
